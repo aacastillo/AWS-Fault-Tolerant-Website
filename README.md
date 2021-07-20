@@ -1,7 +1,8 @@
 # AWS Fault Tolerant Website
 
 ### Architecture
-![Architecture](https://lucid.app/publicSegments/view/f48de5e0-e4d8-44fc-aa4b-72b7696024bc/image.png)
+<p align="center"> <img src="https://lucid.app/publicSegments/view/f48de5e0-e4d8-44fc-aa4b-72b7696024bc/image.png" alt="Architecture" /> </p>
+
 ### Description
 We are creating a web server linked with MySQL and Wordpress. We will then create a snapshot image of the web server and dependancies for autoscaling purposes, which will all be attatched to an application load balancer. We will be using free tier services with the exception of some services like RDS instances which do cost money **(IMPORTANT!)**.
 
